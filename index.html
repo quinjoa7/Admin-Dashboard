@@ -11,55 +11,65 @@
     <main>
         <div id="sidebar">
             <div id="logo">
-                <img src="" alt="">
+                <img src="./assets/sidebar/dashboard.svg" alt="">
                 <p>Dashboard</p>
             </div>
             <ul id="navigation">
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/home.svg" alt="">
                     <p>Home</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/profile.svg" alt="">
                     <p>Profile</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/messages.svg" alt="">
                     <p>Messages</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/history.svg" alt="">
                     <p>History</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/tasks.svg" alt="">
                     <p>Tasks</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/communities.svg" alt="">
                     <p>Communities</p>
                 </li>
             </ul>
             <ul id="branding">
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/settings.svg" alt="">
                     <p>Settings</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/support.svg" alt="">
                     <p>Support</p>
                 </li>
-                <li>
+                <li class="navigation-option">
+                    <img src="./assets/sidebar/privacy.svg" alt="">
                     <p>Privacy</p>
                 </li>
             </ul>
         </div>
         <div id="header">
             <div id="searchbar">
-                <button>O_</button>
+                <a href=""><img src="./assets/header/search.svg" alt=""></a>
                 <input type="text">
             </div>
             <div id="user">
-                <button> A</button>
-                <a href="">O</a>
-                <a href="">User</a>
+                <a href=""><img src="./assets/header/bell.svg" alt="" style="width: 30px;"></a>
+                <a href=""><img src="./assets/users/2.jpg" alt="" style="width: 50px; border-radius: 50%;">
+                </a>
+                <a href="">User2</a>
             </div>
             <div id="welcome">
-                <a href="">O</a>
+                <a href=""><img src="./assets/users/2.jpg" alt="" style="width: 75px; border-radius: 50%;"></a>
                 <p>Hi there</p>
-                <p>User (@user)</p>
+                <p>User 2 (@user2)</p>
             </div>
             <div id="user-actions">
                 <button>New</button>
@@ -72,22 +82,58 @@
                 <p>Projects</p>
                 <div id="project-cards">
                     <div class="project-card">
-                        1
+                        <div class="project-title">Title</div>
+                        <div class="project-content">Content</div>
+                        <div class="project-buttons">
+                            <a href=""> <img src="./assets/card-icons/like.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/delete.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/share.svg" alt=""></a>
+                        </div>
                     </div>
                     <div class="project-card">
-                        2
+                        <div class="project-title">Title</div>
+                        <div class="project-content">Content</div>
+                        <div class="project-buttons">
+                            <a href=""> <img src="./assets/card-icons/like.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/delete.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/share.svg" alt=""></a>
+                        </div>
                     </div>
                     <div class="project-card">
-                        3
+                        <div class="project-title">Title</div>
+                        <div class="project-content">Content</div>
+                        <div class="project-buttons">
+                            <a href=""> <img src="./assets/card-icons/like.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/delete.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/share.svg" alt=""></a>
+                        </div>
                     </div>
                     <div class="project-card">
-                        4
+                        <div class="project-title">Title</div>
+                        <div class="project-content">Content</div>
+                        <div class="project-buttons">
+                            <a href=""> <img src="./assets/card-icons/like.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/delete.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/share.svg" alt=""></a>
+                        </div>
                     </div>
                     <div class="project-card">
-                        5
+                        <div class="project-title">Title</div>
+                        <div class="project-content">Content</div>
+                        <div class="project-buttons">
+                            <a href=""> <img src="./assets/card-icons/like.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/delete.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/share.svg" alt=""></a>
+                        </div>
                     </div>
                     <div class="project-card">
-                        6
+                        <div class="project-title">Title</div>
+                        <div class="project-content">Content</div>
+                        <div class="project-buttons">
+                            <a href=""> <img src="./assets/card-icons/like.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/delete.svg" alt=""></a>
+                            <a href=""><img src="./assets/card-icons/share.svg" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,10 +144,12 @@
                         <p class="announcement-title">Announcement</p>
                         <p>announcement content</p>
                     </div>
+                    <div class="divider"></div>
                     <div class="announcement">
                         <p class="announcement-title">Announcement</p>
                         <p>announcement content</p>
                     </div>
+                    <div class="divider"></div>
                     <div class="announcement">
                         <p class="announcement-title">Announcement</p>
                         <p>announcement content</p>
@@ -112,23 +160,23 @@
                 <p>Trending</p>
                 <div id="trending-card">
                     <div class="trending-user">
-                        <img src="" alt="">
+                        <img src="./assets/users/1.jpg" alt="" style="width: 50px;border-radius: 50%;">
                         <p>@user1</p>
                         <p>Description</p>
                     </div>
                     <div class="trending-user">
-                        <img src="" alt="">
-                        <p>@user1</p>
+                        <img src="./assets/users/2.jpg" alt="" style="width: 50px;border-radius: 50%;">
+                        <p>@user2</p>
                         <p>Description</p>
                     </div>
                     <div class="trending-user">
-                        <img src="" alt="">
-                        <p>@user1</p>
+                        <img src="./assets/users/3.jpg" alt="" style="width: 50px;border-radius: 50%;">
+                        <p>@user3</p>
                         <p>Description</p>
                     </div>
                     <div class="trending-user">
-                        <img src="" alt="">
-                        <p>@user1</p>
+                        <img src="./assets/users/4.jpg" alt="" style="width: 50px;border-radius: 50%;">
+                        <p>@user4</p>
                         <p>Description</p>
                     </div>
                 </div>
