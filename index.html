@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="sidebar">
-        <div id="logo"><p>Dashboard</p></div>
-        <div id="navigation">
-            <ul>
+    <main>
+        <div id="sidebar">
+            <div id="logo">
+                <img src="" alt="">
+                <p>Dashboard</p>
+            </div>
+            <ul id="navigation">
                 <li>
                     <p>Home</p>
                 </li>
@@ -31,9 +34,7 @@
                     <p>Communities</p>
                 </li>
             </ul>
-        </div>
-        <div id="branding">
-            <ul>
+            <ul id="branding">
                 <li>
                     <p>Settings</p>
                 </li>
@@ -45,40 +46,94 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div id="header">
-        <div id="searchbar">
-            <button>O_</button>
-            <input type="text">
+        <div id="header">
+            <div id="searchbar">
+                <button>O_</button>
+                <input type="text">
+            </div>
+            <div id="user">
+                <button> A</button>
+                <a href="">O</a>
+                <a href="">User</a>
+            </div>
+            <div id="welcome">
+                <a href="">O</a>
+                <p>Hi there</p>
+                <p>User (@user)</p>
+            </div>
+            <div id="user-actions">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
-        <div id="user">
-            <button> A</button>
-            <a href="">O</a>
-            <a href="">User</a>
+        <div id="main-content">
+            <div id="projects">
+                <p>Projects</p>
+                <div id="project-cards">
+                    <div class="project-card">
+                        1
+                    </div>
+                    <div class="project-card">
+                        2
+                    </div>
+                    <div class="project-card">
+                        3
+                    </div>
+                    <div class="project-card">
+                        4
+                    </div>
+                    <div class="project-card">
+                        5
+                    </div>
+                    <div class="project-card">
+                        6
+                    </div>
+                </div>
+            </div>
+            <div id="announcements">
+                <p>Announcements</p>
+                <div id="announcements-card">
+                    <div class="announcement">
+                        <p class="announcement-title">Announcement</p>
+                        <p>announcement content</p>
+                    </div>
+                    <div class="announcement">
+                        <p class="announcement-title">Announcement</p>
+                        <p>announcement content</p>
+                    </div>
+                    <div class="announcement">
+                        <p class="announcement-title">Announcement</p>
+                        <p>announcement content</p>
+                    </div>
+                </div>
+            </div>
+            <div id="trending">
+                <p>Trending</p>
+                <div id="trending-card">
+                    <div class="trending-user">
+                        <img src="" alt="">
+                        <p>@user1</p>
+                        <p>Description</p>
+                    </div>
+                    <div class="trending-user">
+                        <img src="" alt="">
+                        <p>@user1</p>
+                        <p>Description</p>
+                    </div>
+                    <div class="trending-user">
+                        <img src="" alt="">
+                        <p>@user1</p>
+                        <p>Description</p>
+                    </div>
+                    <div class="trending-user">
+                        <img src="" alt="">
+                        <p>@user1</p>
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="welcome">
-            <a href="">O</a>
-            <p>Hi there</p>
-            <p>User (@user)</p>
-        </div>
-        <div id="user-actions">
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
-        </div>
-    </div>
-    <div id="main-content">
-        <div id="projects">
-            <p>Your Projects</p>
-        </div>
-        <div id="announcements">
-            <p>Announcements</p>
-            <div id="announcements-card"></div>
-        </div>
-        <div id="trending">
-            <p>Trending</p>
-            <div id="trending-card"></div>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
